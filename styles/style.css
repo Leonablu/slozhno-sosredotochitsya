@@ -72,15 +72,9 @@
 }
 
 .header__theme-menu-list {
-  display: inline-flex;
-  justify-content: center;
-}
-
-.header__theme-menu-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  list-style-type: none;
 }
 
 .header__theme-menu-button {
@@ -355,6 +349,7 @@ main {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
+
 @media (min-width: 1024px){
 
   .header {

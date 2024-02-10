@@ -32,9 +32,11 @@
       --article-text-color: #353430;
       --article-link-color: #FF8DCB;
   }
+  
   .rec::after {
     display:none;
   }
+
   .ellipce::before {
     display:none;
   }
