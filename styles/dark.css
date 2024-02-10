@@ -3,7 +3,21 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme-dark {
+  --accent-color: #ff0070;
+  --title-decor: #ff0070;
+  --accent-font: "IBM Plex mono";
+  --title-color: #db00ff;
+  --background-image-set: url(../images/cover-image-dark.png);
+  --accent-background:#000028;
+  --text-color: #000028;
+  --hover-color: #ff007066;
+  --shadow-color: #ff0070;
+  --article-text-color: #F1B2CE;
+  
+}
 
+/* Остальные стили */
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,

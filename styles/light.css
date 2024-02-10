@@ -3,6 +3,45 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme-light {
+  --accent-color: #353430;
+  --title-decor: #FF8DCB;
+  --accent-font: "IBM Plex mono";
+  --title-color: #FFC2E6;
+  --background-image-set: url(../images/cover-image-light.png);
+  --text-color: #353430;
+  --hover-color: #32312D66;
+  --shadow-color: #FF8DCB;
+  --article-text-color: #353430;
+  --article-link-color: #FF8DCB;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+:root {
+      /* Дублируем переменные светлой темы */    
+      --accent-color: #353430;
+      --title-decor: #FF8DCB;
+      --accent-font: "IBM Plex mono";
+      --title-color: #FFC2E6;
+      --background-image-set: url(../images/cover-image-light.png);
+      --text-color: #353430;
+      --hover-color: #32312D66;
+      --shadow-color: #FF8DCB;
+      --article-text-color: #353430;
+      --article-link-color: #FF8DCB;
+  }
+  .rec::after {
+    display:none;
+  }
+  .ellipce::before {
+    display:none;
+  }
+
+}
+
+/* Остальные стили */
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
