@@ -350,17 +350,18 @@ main {
   }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
   .header {
     align-items: start;
-    gap: 114px;
+    gap: 115px;
     padding: 20px 20px 20px 0px;
   }
 
   .header__theme-menu {
     justify-self: center;
     align-self:flex-start;
+    padding-left: 20px;
   }
 
   .header__theme-menu-list {

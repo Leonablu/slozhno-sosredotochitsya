@@ -16,10 +16,9 @@
   --article-link-color: #FF8DCB;
 }
 
-
-
 @media (prefers-color-scheme: light) {
-:root {
+
+  :root {
       /* Дублируем переменные светлой темы */    
       --accent-color: #353430;
       --title-decor: #FF8DCB;
@@ -32,7 +31,7 @@
       --article-text-color: #353430;
       --article-link-color: #FF8DCB;
   }
-  
+
   .rec::after {
     display:none;
   }
