@@ -248,6 +248,9 @@ main {
   text-shadow: 2px 2px 0px var(--shadow-color, #ff0070);
 }
 
+
+
+
 @media (min-width: 768px) and (max-width: 1023.99px) {
   .rec::after {
     top: 20px;
