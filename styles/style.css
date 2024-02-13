@@ -302,7 +302,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 24% 29% 40%;
-    gap: 10px;
     gap: 25px;
     padding-top: 18px;
   }

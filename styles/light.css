@@ -15,6 +15,7 @@
   --title-decor: #ff8dcb;
   --title-color: #ffc2e6;
   --background-image-set: url(../images/cover-image-light.png);
+  --accent-background:#FFF1F7;
   --text-color: #353430;
   --hover-color: #32312d66;
   --shadow-color: #ff8dcb;
@@ -30,6 +31,7 @@
     --title-decor: #ff8dcb;
     --title-color: #ffc2e6;
     --background-image-set: url(../images/cover-image-light.png);
+    --accent-background:#FFF1F7;
     --text-color: #353430;
     --hover-color: #32312d66;
     --shadow-color: #ff8dcb;
