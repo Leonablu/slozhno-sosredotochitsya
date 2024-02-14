@@ -239,7 +239,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023.99px) {
-  
+
   .header {
     justify-content: normal;
     gap: 162px;
@@ -334,6 +334,7 @@
 }
 
 @media (min-width: 1024px) {
+  
   .header {
     justify-content: normal;
     align-items: start;
