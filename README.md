@@ -25,4 +25,5 @@
    git clone https://github.com/Leonablu/slozhno-sosredotochitsya.git
    cd slozhno-sosredotochitsya
 2. Для запуска проекта в браузере откройте файл index.html:
-- open index.html
+   ```bash
+   open index.html
